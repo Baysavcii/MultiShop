@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{39E722DA-7CFE-430E-B5EB-6B3DDD89DD93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{737E76D7-28E7-4D67-BB6C-66CD9967BD6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Catalog", "Services\Catalog\WebApplication1\MultiShop.Catalog.csproj", "{9A014619-55D1-458D-9576-94A3BCB543F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{5DC14F2E-A3AC-4CAC-9E2D-2E2990EB57F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Discount", "Services\Discount\MultiShop.Discount\MultiShop.Discount.csproj", "{3DE145DD-087A-428B-ACC3-97E273E00E5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A014619-55D1-458D-9576-94A3BCB543F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A014619-55D1-458D-9576-94A3BCB543F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A014619-55D1-458D-9576-94A3BCB543F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A014619-55D1-458D-9576-94A3BCB543F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE145DD-087A-428B-ACC3-97E273E00E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE145DD-087A-428B-ACC3-97E273E00E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE145DD-087A-428B-ACC3-97E273E00E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE145DD-087A-428B-ACC3-97E273E00E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{737E76D7-28E7-4D67-BB6C-66CD9967BD6E} = {39E722DA-7CFE-430E-B5EB-6B3DDD89DD93}
+		{9A014619-55D1-458D-9576-94A3BCB543F8} = {737E76D7-28E7-4D67-BB6C-66CD9967BD6E}
+		{5DC14F2E-A3AC-4CAC-9E2D-2E2990EB57F9} = {39E722DA-7CFE-430E-B5EB-6B3DDD89DD93}
+		{3DE145DD-087A-428B-ACC3-97E273E00E5E} = {5DC14F2E-A3AC-4CAC-9E2D-2E2990EB57F9}
+	EndGlobalSection
+EndGlobal
